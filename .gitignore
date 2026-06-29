@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# === SECURITY: never commit sensitive data ===
+*.env
+*.log
+*credentials*
+*password*
+*secret*
+*private_key*
+*.pem
+*.key
